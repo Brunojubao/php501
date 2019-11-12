@@ -23,5 +23,5 @@ var_dump($usuario->ativo === Usuario::STATUS_INATIVO);
 if($usuario->ativo === Usuario::STATUS_ATIVO){
     echo "<p>Ativo</p>";
 }else{
-    echo "<p>Desativado</p>"
+    echo "<p>Desativado</p>";
 }
