@@ -6,7 +6,7 @@ namespace Curso\Loja\Entidades;
  * @Entity @Table(name="produto")
  */
 
- class produto
+ class Produto
  {
      /** @Id @Column(type="integer") @generatedValue*/
      protected $id;
